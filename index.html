@@ -2037,8 +2037,8 @@
                 let wbc = 0;
 
                 const sensitivity = settings.sensitivity / 100;
-                const minArea = 5 * sensitivity;
-                const maxArea = 1000 * sensitivity;
+                const minArea = 1 * sensitivity;
+                const maxArea = 10000 * sensitivity;
 
                 for (let i = 0; i < contours.size(); i++) {
                     const contour = contours.get(i);
